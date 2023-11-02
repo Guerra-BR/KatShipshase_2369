@@ -1,6 +1,12 @@
 const PlayerMain = () => (
   <>
-    <audio src="./music.mp3" preload="metadata" autoPlay controls loop></audio>
+    <audio
+      src="../../assts/music.mp3"
+      preload="metadata"
+      autoPlay
+      controls
+      loop
+    ></audio>
   </>
 )
 

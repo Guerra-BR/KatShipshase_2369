@@ -22,7 +22,7 @@ const Infos = () => {
             <a href="https://www.youtube.com/watch?v=eQBlomFo1Kw">
               <img src={musicImg} />
             </a>
-            <PlayerMain />
+            {/* <PlayerMain /> */}
           </Info>
           <Info></Info>
           <Info></Info>
