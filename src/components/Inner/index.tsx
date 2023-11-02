@@ -45,7 +45,7 @@ const Inner = () => {
       {show() && (
         <>
           <SearchText
-            hide={`${hidde && 'hidden'}`}
+            hide={`${hidde ? 'none' : 'flex'}`}
             className={`${display && 'up'}`}
           >
             <p>
