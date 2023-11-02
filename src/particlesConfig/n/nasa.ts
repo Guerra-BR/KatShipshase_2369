@@ -43,11 +43,11 @@ const options: ISourceOptions = {
   interactivity: {
     events: {
       onHover: {
-        enable: true,
+        enable: false,
         mode: 'bubble'
       },
       onClick: {
-        enable: true,
+        enable: false,
         mode: 'repulse'
       }
     },
@@ -77,9 +77,7 @@ const options: ISourceOptions = {
     }
   },
   background: {
-    color: '#232741',
-    image:
-      "url('http://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1237px-NASA_logo.svg.png')",
+    color: 'transparent',
     position: '50% 50%',
     repeat: 'no-repeat',
     size: '20%'

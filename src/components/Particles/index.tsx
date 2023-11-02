@@ -2,7 +2,7 @@ import { useCallback } from 'react'
 import Particles from 'react-tsparticles'
 import type { Container, Engine } from 'tsparticles-engine'
 import { loadSlim } from 'tsparticles-slim' // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
-import opt from '../../particlesConfig/c/chars'
+import opt from '../../particlesConfig/n/nasa'
 
 const ParticlesBg = () => {
   const particlesInit = useCallback(async (engine: Engine) => {

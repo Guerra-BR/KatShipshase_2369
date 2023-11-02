@@ -1,0 +1,16 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 512 512"
+  width="512"
+  height="512"
+  preserveAspectRatio="none"
+>
+  <path
+    d="M 0 0 L 512 512 M 512 0 L 0 512"
+    stroke="#fff"
+    strokeWidth="2.01px"
+    vectorEffect="non-scaling-stroke"
+    strokeLinecap="square"
+    fillRule="nonzero"
+  />
+</svg>
