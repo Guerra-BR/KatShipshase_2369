@@ -44,7 +44,10 @@ const Inner = () => {
     <Card>
       {show() && (
         <>
-          <SearchText className={`${display && 'up'} ${hidde && 'hidden'}`}>
+          <SearchText
+            hide={`${hidde && 'hidden'}`}
+            className={`${display && 'up'}`}
+          >
             <p>
               🔍Searching 🦋@Kat_Ship2369<span>{text}</span>
               <span> {textfound}</span>

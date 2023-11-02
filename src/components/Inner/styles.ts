@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+type Props = {
+  hide: string
+}
+
 export const Card = styled.div`
   margin: auto;
   border-radius: 8px;
@@ -19,11 +23,11 @@ export const Card = styled.div`
   }
 `
 
-export const SearchText = styled.div`
+export const SearchText = styled.div<Props>`
   background-color: #000;
   color: #fff;
   font-weight: bold;
-  display: flex;
+  display: ${(props) => props.hide};
   justify-content: space-between;
 
   p {
